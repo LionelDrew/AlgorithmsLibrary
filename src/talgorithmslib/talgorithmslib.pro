@@ -60,6 +60,9 @@ INCLUDEPATH += .
 
 ###导出header
 HEADER_PATH = $$system_path($${LIBPATH}/include)
+!exists($${HEADER_PATH}) {
+    mkpath($${HEADER_PATH})
+}
 win32{
     system(copy *.h $${HEADER_PATH})
     system(copy talgoshapes\*.h $${HEADER_PATH})
