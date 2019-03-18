@@ -1,0 +1,42 @@
+[
+	{
+		"data": {
+			"lot_no": "MO002",
+			"prod_order_no": "MO001-002",
+			"pn": "pn002",
+			"raw_pn": "100011"
+		},
+		"input_qty": 2,
+		"g_code": "%\nG91\nG00X418.42Y5.\nG41\nM07\nG01X-10.\nG01X-173.34\nG02X-7.69Y1373.I977.93J692.\nG01X605.61\nG01Y-95.34\nG03X-424.58Y-1277.65I380.J-835.66\nM08\nG40\nM02\n"
+	},
+	{
+		"data": {
+			"pn": "pn003",
+			"raw_pn": "100010",
+			"lot_no": "MO003",
+			"prod_order_no": "MO001-003"
+		},
+		"input_qty": 2,
+		"g_code": "%\nG91\nG00X1685.01Y5.01\nG41\nM07\nG01X-10.\nG01X-725.\nG01Y20.\nG01X-600.\nG01Y5.\nG01X-50.\nG02X-295.Y295.J295.\nG01Y361.\nG01X728.\nG01Y-85.\nG01X647.\nG02X295.Y-295.J-295.\nG01Y-301.\nM08\nG40\nM02\n"
+	},
+	{
+		"data":{
+			"lot_no" : "MO001",
+			"prod_order_no" : "MO001-001",
+			"pn" : "pn001",
+			"raw_pn" : "100010"
+		},
+		"input_qty" : 48,
+		"g_code" : "%\nG91\nG00X0.0Y-5.\nG41\nM07\nG01Y100.\nG01X100.\nG01Y-100.0\nG01X-105\nM08\nG40\nM02\n"
+	},
+	{
+		"data": {
+			"lot_no" : "MO002",
+			"prod_order_no" : "MO001-002",
+			"pn" : "pn002",
+			"raw_pn" : "100011"
+		},
+		"input_qty" : 30,
+		"g_code" : "%\nG91\nG00X0.0Y-5.\nG41\nM07\nG01Y170.\nG01X80.\nG01Y-70.0\nG01X40.0\nG01Y-100.0\nG01X-125.0\nM08\nG40\nM02\n"
+	}
+]

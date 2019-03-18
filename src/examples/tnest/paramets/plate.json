@@ -1,0 +1,20 @@
+[
+	{
+		"data": {
+			"serial_no" : "serial001",
+			"pn" : "100010",
+			"h_size" : 8
+		},
+		"x_size" : 3000,
+		"y_size" : 7500
+	},
+	{
+		"data": {
+			"serial_no" : "serial002",
+			"pn" : "100011",
+			"h_size" : 8
+		},
+		"x_size" : 4000,
+		"y_size" : 8500
+	}
+]
